@@ -16,7 +16,7 @@
     font-size: 30px;
 }
 #backimg{
-    background-image: url("./img/bg1.jpg");
+    background-image: url("../img/bg1.jpg");
     height: auto;
     background-size: cover;
     background-repeat: no-repeat;
@@ -48,7 +48,7 @@
         padding-left:0;
       }
     #bgeimg{
-        background-image: url("./img/bg3.jpg");
+        background-image: url("../img/bg3.jpg");
         height: auto;
         /* position: fixed; */
         background-size: cover;
@@ -78,7 +78,7 @@
         font-size: 30px;
     }
     #coimg{
-        background-image: url("./img/p1.jpg");
+        background-image: url("../img/p1.jpg");
         height: 50vh;
         /* position: fixed; */
         background-size: cover;
@@ -88,7 +88,7 @@
 
     }
     #coimg2{
-        background-image: url("./img/p2.jpg");
+        background-image: url("../img/p2.jpg");
         height: 50vh;
         /* position: fixed; */
         background-size: cover;
@@ -97,7 +97,7 @@
         padding-top: 5%;
 
     }#coimg3{
-        background-image: url("./img/p3.jpg");
+        background-image: url("../img/p3.jpg");
         height: 50vh;
         /* position: fixed; */
         background-size: cover;
@@ -106,7 +106,7 @@
         padding-top: 5%;
 
     }#coimg4{
-        background-image: url("./img/p4.jpg");
+        background-image: url("../img/p4.jpg");
         height: 50vh;
         /* position: fixed; */
         background-size: cover;
@@ -116,7 +116,7 @@
 
     }
     #pngimg{
-        background-image: url("./img/img3.png");
+        background-image: url("../img/img3.png");
         height: 80vh;
         z-index: 1000;
         background-repeat: no-repeat;
@@ -131,7 +131,7 @@
         width: 100% !important;
     }
     #stdimg{
-        background-image: url("./img/bg2.jpg");
+        background-image: url("../img/bg2.jpg");
         height: auto;
         background-size: cover;
         background-repeat: no-repeat;
