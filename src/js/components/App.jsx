@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 // import data from "./data";
-// import axios from 'axios';
+import axios from 'axios';
 import Nav from "./Nav";
-import data from "./data";
+// import data from "./data";
 import Header from "./Header";
 import About from "./About";
 import Courses from "./Courses"
@@ -19,11 +19,21 @@ class App extends Component {
 
   state = {
    
-    data:data,
+    data:[],
     
   };
  
+  componentDidMount() {
+    axios.get("/api").then(res => {
+      console.log(res);
+      this.setState({
+        data: [...res.data]
+      });
+    });
+  }
   render() {
+    if(this.state.data[0]){
+
     return (
       <div>
         <Nav data={this.state.data[0].nav} />
@@ -38,6 +48,11 @@ class App extends Component {
 
       </div>
     );
+  }else{
+    return(
+      <div>Hello</div>
+    )
   }
+}
 }
 export default App;
